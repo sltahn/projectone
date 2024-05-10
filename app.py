@@ -4,7 +4,7 @@ import numpy as np
 
 st.title("Streamlit Project #1 - Salaries")
 
-DATA_URL = ('C:/Users/nstahl25/Documents/Streamlit/SteamlitProjectOne/salaries.csv')
+DATA_URL = ('salaries.csv')
 
 @st.cache_data
 def load_data(nrows):
